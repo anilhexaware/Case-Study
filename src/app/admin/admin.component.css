@@ -1,0 +1,28 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+/* .containers {
+  background-color: #808080;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+button {
+  margin: 0 5px;
+}

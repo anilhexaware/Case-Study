@@ -1,0 +1,16 @@
+<mat-toolbar color="primary" class="containers">
+  <mat-toolbar-row fxLayoutAlign="space-between center center">
+    <div>
+      <img src="assets/img/hexaware-logo.png" alt="hexaware-logo" width="16%" />
+    </div>
+    <div>
+      <h1>LMS Enrollment Tracker</h1>
+    </div>
+    <div>
+      <button mat-raised-button color="secondry" (click)="logout()">
+        <mat-icon>input</mat-icon> Logout
+      </button>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>

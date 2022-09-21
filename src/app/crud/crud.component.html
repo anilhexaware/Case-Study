@@ -1,0 +1,177 @@
+<h1 mat-dialog-title>Add Employee Details</h1>
+<div mat-dialog-content>
+  <form [formGroup]="employeeForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Employee ID</mat-label>
+      <input
+        formControlName="empId"
+        matInput
+        type="number"
+        placeholder="Emp ID"
+        autocomplete="off"
+      />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Employee Name</mat-label>
+      <input
+        formControlName="name"
+        matInput
+        placeholder="Emp Name"
+        autocomplete="off"
+      />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Learning Plan</mat-label>
+      <mat-select
+        formControlName="learningPlan"
+        placeholder="Learning Plan"
+        autocomplete="off"
+      >
+        <mat-option
+          *ngFor="let learningdata of learningData"
+          [value]="learningdata.id"
+        >
+          {{ learningdata.name }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Module</mat-label>
+      <mat-select
+        multiple
+        formControlName="module"
+        aria-placeholder="Module"
+        autocomplete="off"
+      >
+        <mat-option
+          *ngFor="let modulesdata of moduleList"
+          [value]="modulesdata.id"
+        >
+          {{ modulesdata.name }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Enrollment Date</mat-label>
+      <input
+        formControlName="enrollmentDate"
+        matInput
+        [matDatepicker]="picker"
+        autocomplete="off"
+      />
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Percentage Completion</mat-label>
+      <input
+        formControlName="percetageCompletion"
+        matInput
+        autocomplete="off"
+      />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Due Date</mat-label>
+      <input
+        formControlName="dueDate"
+        matInput
+        [matDatepicker]="picker1"
+        autocomplete="off"
+      />
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+      <mat-datepicker #picker1></mat-datepicker>
+    </mat-form-field>
+
+    <!-- <mat-form-field appearance="outline">
+      <mat-label>Requested By</mat-label>
+      <input
+        formControlName="requestedBy"
+        matInput
+        type="number"
+        placeholder="Requested By"
+        autocomplete="off"
+      />
+    </mat-form-field> -->
+
+    <mat-form-field appearance="outline">
+      <mat-label>Requested Date</mat-label>
+      <input
+        formControlName="requestedDate"
+        matInput
+        [matDatepicker]="picker2"
+        placeholder="Requested Date"
+        autocomplete="off"
+      />
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+      <mat-datepicker #picker2></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>LMS Status</mat-label>
+      <mat-select
+        formControlName="lmsStatus"
+        placeholder="LMS Status"
+        autocomplete="off"
+      >
+        <mat-option *ngFor="let lmslist of lmsstatusList" [value]="lmslist.id">
+          {{ lmslist.name }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <!-- <mat-form-field appearance="outline">
+      <mat-label>Updated By</mat-label>
+      <input
+        formControlName="updatedBy"
+        matInput
+        type="number"
+        placeholder="Updated By"
+        autocomplete="off"
+      />
+    </mat-form-field> -->
+
+    <mat-form-field appearance="outline">
+      <mat-label>Updated Date</mat-label>
+      <input
+        formControlName="updatedDate"
+        matInput
+        [matDatepicker]="picker3"
+        placeholder="Updated Date"
+        autocomplete="off"
+      />
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
+      <mat-datepicker #picker3></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" *ngIf="actionBtn === 'save'">
+      <mat-label>Comment</mat-label>
+      <input
+        formControlName="comment"
+        matInput
+        placeholder="Text area"
+        autocomplete="off"
+      />
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-action [align]="'end'">
+  <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+  <button
+    style="margin-left: 10px"
+    mat-raised-button
+    color="primary"
+    (click)="addEmployee()"
+  >
+    {{ actionBtn }}
+  </button>
+</div>

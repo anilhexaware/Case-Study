@@ -1,0 +1,91 @@
+<!-- <div class="card">
+  <h4 class="card-header">Login</h4>
+  <div class="card-body">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" formControlName="email" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          formControlName="password"
+          class="form-control"
+          required
+        />
+      </div>
+      <mat-form-field class="form-element-e">
+        <mat-label>Role</mat-label>
+        <mat-select
+          (selectionChange)="applySelectFilter($event)"
+          formControlName="rolesData"
+        >
+          <mat-option *ngFor="let login of getRoles" [value]="login.role">
+            {{ login.role }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      {{ error }}
+      <div class="form-group">
+        <button class="btn btn-primary">
+          <span
+            *ngIf="loggedin"
+            class="spinner-border spinner-border-sm mr-1"
+          ></span>
+          Login
+        </button>
+      </div>
+    </form>
+  </div>
+</div> -->
+<div fxLayoutAlign="center center" fxFlexFill>
+  <mat-card fxFlex="25">
+    <mat-toolbar color="primary">
+      <span> LMS Enrollment Tracker Login</span>
+    </mat-toolbar>
+    <form
+      fxLayoutAlign="stretch"
+      fxLayout="column"
+      [formGroup]="form"
+      (ngSubmit)="onSubmit()"
+    >
+      <mat-form-field>
+        <mat-label for="email">Email</mat-label>
+        <input
+          type="email"
+          formControlName="email"
+          matInput
+          autocomplete="off"
+        />
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label for="password">Password</mat-label>
+        <input
+          type="password"
+          formControlName="password"
+          matInput
+          autocomplete="off"
+        />
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Role</mat-label>
+        <mat-select
+          (selectionChange)="applySelectFilter($event)"
+          formControlName="rolesData"
+        >
+          <mat-option *ngFor="let login of getRoles" [value]="login.role">
+            {{ login.role }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      {{ error }}
+      <button mat-raised-button type="submit">
+        <span *ngIf="loggedin"></span>
+        Login
+      </button>
+    </form>
+  </mat-card>
+</div>

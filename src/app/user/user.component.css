@@ -1,0 +1,15 @@
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* .containers {
+  background-color: #808080;
+  max-width: 1300px;
+  margin: 0 auto;
+} */

@@ -1,0 +1,1076 @@
+{
+  "project_type": [
+    {
+      "name": "SERVICE OFFERING",
+      "id": 1001
+    },
+    {
+      "name": "RESOURCE POOL",
+      "id": 1002
+    },
+    {
+      "name": "VERTICAL POOL",
+      "id": 1003
+    },
+    {
+      "name": "#N/A",
+      "id": 1004
+    },
+    {
+      "name": "LAB",
+      "id": 1005
+    },
+    {
+      "name": "CLIENT",
+      "id": 1006
+    },
+    {
+      "name": "CLIENT MANAGEMENT",
+      "id": 1007
+    },
+    {
+      "name": "SUPPORT",
+      "id": 1008
+    },
+    {
+      "name": "CLIENT POOL",
+      "id": 1009
+    },
+    {
+      "name": "COMPETENCY SOLUTION",
+      "id": 1010
+    },
+    {
+      "name": "COMPETENCY MAINTENANCE",
+      "id": 1011
+    },
+    {
+      "name": "NON DEPLOYABLE POOL",
+      "id": 1012
+    },
+    {
+      "name": "EARMARKED POOL",
+      "id": 1013
+    }
+  ],
+  "active/inactive": [
+    {
+      "name": "ACTIVE",
+      "id": 998
+    },
+    {
+      "name": "INACTIVE",
+      "id": 999
+    },
+    {
+      "name": "RESIGNED",
+      "id": 1000
+    }
+  ],
+  "assigned_grade_(as_per_connect_report)": [
+    {
+      "name": "UE",
+      "id": 1197
+    },
+    {
+      "name": "G2",
+      "id": 1198
+    },
+    {
+      "name": "G3",
+      "id": 1199
+    },
+    {
+      "name": "#N/A",
+      "id": 1200
+    },
+    {
+      "name": "G4",
+      "id": 1201
+    },
+    {
+      "name": "G5",
+      "id": 1202
+    },
+    {
+      "name": "G6",
+      "id": 1203
+    }
+  ],
+  "final_classification": [
+    {
+      "name": "ENROLLED-COMPLETED",
+      "id": 992
+    },
+    {
+      "name": "ENROLLED-NOT STARTED",
+      "id": 993
+    },
+    {
+      "name": "INACTIVE",
+      "id": 994
+    },
+    {
+      "name": "EXEMPTED",
+      "id": 995
+    },
+    {
+      "name": "NOT ENROLLED",
+      "id": 996
+    },
+    {
+      "name": "ENROLLED-WIP",
+      "id": 997
+    }
+  ],
+  "modules": [
+    {
+      "name": "HTD_ATM_Java_Springboot_Microservices_Cloud",
+      "id": 1218
+    },
+    {
+      "name": "HTD_ATM_DotnetCore_Microservices_Cloud",
+      "id": 1219
+    },
+    {
+      "name": "HTD_ATM_Angular",
+      "id": 1220
+    },
+    {
+      "name": "HTD_ATM_REACT",
+      "id": 1221
+    },
+    {
+      "name": "HTD_ATM_AWS Fundamentals",
+      "id": 1222
+    },
+    {
+      "name": "HTD_ATM_Azure Fundamentals",
+      "id": 1223
+    },
+    {
+      "name": "HTD_ATM_AWS_Advanced",
+      "id": 1224
+    },
+    {
+      "name": "HTD_ATM_Azure_Advanced",
+      "id": 1225
+    },
+    {
+      "name": "HTD_ATM_Mulesoft_CrossHire",
+      "id": 1226
+    }
+  ],
+  "project_exec_bu_(_as_per_conenct)": [
+    {
+      "name": "GLOBALATM",
+      "id": 1174
+    },
+    {
+      "name": "CEXT",
+      "id": 1175
+    },
+    {
+      "name": "BPS",
+      "id": 1176
+    },
+    {
+      "name": "GTT",
+      "id": 1177
+    },
+    {
+      "name": "GLOBALBIBA",
+      "id": 1178
+    },
+    {
+      "name": "QMG",
+      "id": 1179
+    },
+    {
+      "name": "GLOBALCXT",
+      "id": 1180
+    },
+    {
+      "name": "#N/A",
+      "id": 1181
+    },
+    {
+      "name": "CTO OFF",
+      "id": 1182
+    },
+    {
+      "name": "NTS",
+      "id": 1183
+    },
+    {
+      "name": "HTPS",
+      "id": 1184
+    },
+    {
+      "name": "GLOBALES",
+      "id": 1185
+    },
+    {
+      "name": "BFS",
+      "id": 1186
+    },
+    {
+      "name": "IMS",
+      "id": 1187
+    },
+    {
+      "name": "ES",
+      "id": 1188
+    },
+    {
+      "name": "HCI",
+      "id": 1189
+    },
+    {
+      "name": "BANKING",
+      "id": 1190
+    },
+    {
+      "name": "GLOBALCOMP",
+      "id": 1191
+    },
+    {
+      "name": "CORP FUN",
+      "id": 1192
+    },
+    {
+      "name": "MFGCONSU",
+      "id": 1193
+    },
+    {
+      "name": "GLOBALIMS",
+      "id": 1194
+    },
+    {
+      "name": "GLOBALDA",
+      "id": 1195
+    },
+    {
+      "name": "DA",
+      "id": 1196
+    }
+  ],
+  "lms_type": [
+    {
+      "name": "HTD",
+      "id": 1204
+    },
+    {
+      "name": "ITD",
+      "id": 1205
+    },
+    {
+      "name": "NA",
+      "id": 1228
+    }
+  ],
+  "competency_bg": [
+    {
+      "name": "",
+      "id": 984
+    },
+    {
+      "name": "BIBA",
+      "id": 985
+    },
+    {
+      "name": "ATM",
+      "id": 986
+    },
+    {
+      "name": "ADM",
+      "id": 987
+    },
+    {
+      "name": "DA",
+      "id": 988
+    },
+    {
+      "name": "ES",
+      "id": 989
+    },
+    {
+      "name": "IMS",
+      "id": 990
+    },
+    {
+      "name": "CXT",
+      "id": 991
+    }
+  ],
+  "highest_exp_skill": [
+    {
+      "name": "",
+      "id": 1045
+    },
+    {
+      "name": "JAVA",
+      "id": 1046
+    },
+    {
+      "name": "SERVICENOW DESIGN/IMPLEMENTN",
+      "id": 1047
+    },
+    {
+      "name": "IBM DATASTAGE",
+      "id": 1048
+    },
+    {
+      "name": "SAP SOLUTIONS MANAGER",
+      "id": 1049
+    },
+    {
+      "name": "HIBERNATE",
+      "id": 1050
+    },
+    {
+      "name": "ORACLE APPS - ORACLE APPS DBA",
+      "id": 1051
+    },
+    {
+      "name": "ASP.NET 4.0",
+      "id": 1052
+    },
+    {
+      "name": "HUMAN RESOURCE MANAGEMENT",
+      "id": 1053
+    },
+    {
+      "name": "SPRING WEB SERVICES",
+      "id": 1054
+    },
+    {
+      "name": "AUTOMATION TESTING - CODED UI",
+      "id": 1055
+    },
+    {
+      "name": "BIGDATA -SPARK",
+      "id": 1056
+    },
+    {
+      "name": "SAP ARIBA-CENTRALPROCMTHUB_CLD",
+      "id": 1057
+    },
+    {
+      "name": "INFORMATICA",
+      "id": 1058
+    },
+    {
+      "name": ".NET 3.0",
+      "id": 1059
+    },
+    {
+      "name": "DATA SCIENCE - PYTHON",
+      "id": 1060
+    },
+    {
+      "name": "MAVEN",
+      "id": 1061
+    },
+    {
+      "name": "ALEXA NLP PLATFORMS",
+      "id": 1062
+    },
+    {
+      "name": "MS SQL",
+      "id": 1063
+    },
+    {
+      "name": "AWS- CLOUD",
+      "id": 1064
+    },
+    {
+      "name": "PYTHON SCRIPTING - DEVOPS",
+      "id": 1065
+    },
+    {
+      "name": "AWS - DEVOPS",
+      "id": 1066
+    },
+    {
+      "name": "DATABASE TESTING + MANUAL",
+      "id": 1067
+    },
+    {
+      "name": "SERVICENOW ADMIN / SUP",
+      "id": 1068
+    },
+    {
+      "name": "TESTING-HEX",
+      "id": 1069
+    },
+    {
+      "name": "ORACLE FIN-REV MGT AND BILLING",
+      "id": 1070
+    },
+    {
+      "name": "EFFECTIVE TEAM PLAYER",
+      "id": 1071
+    },
+    {
+      "name": "SAP UI5 / FIORI",
+      "id": 1072
+    },
+    {
+      "name": "AJAX",
+      "id": 1073
+    },
+    {
+      "name": "MANUAL TESTING CAPITAL MARKET",
+      "id": 1074
+    },
+    {
+      "name": "ALM ADMINISTRATOR - TESTING",
+      "id": 1075
+    },
+    {
+      "name": "DEVOPS-SPECIALIST",
+      "id": 1076
+    },
+    {
+      "name": "SAP SF FUNCTIONAL ARCHITECT",
+      "id": 1077
+    },
+    {
+      "name": "AGILE TESTING",
+      "id": 1078
+    },
+    {
+      "name": "SFDC SALES CLOUD",
+      "id": 1079
+    },
+    {
+      "name": "BIGDATA -HIVE",
+      "id": 1080
+    },
+    {
+      "name": "AWS: EMR",
+      "id": 1081
+    },
+    {
+      "name": "ASP.NET MVC",
+      "id": 1082
+    },
+    {
+      "name": "PYTHON",
+      "id": 1083
+    },
+    {
+      "name": "BACKEND OF SNOW SOFTWARE",
+      "id": 1084
+    },
+    {
+      "name": "SPRING BOOT",
+      "id": 1085
+    },
+    {
+      "name": "MANUAL TESTING - AIRLINES",
+      "id": 1086
+    },
+    {
+      "name": "AUTOMATION TESTING - SELENIUM",
+      "id": 1087
+    },
+    {
+      "name": "ANSIBLE - DEVOPS",
+      "id": 1088
+    },
+    {
+      "name": "AUTOMATION TESTING - TALOS",
+      "id": 1089
+    },
+    {
+      "name": "PYTHON-INNOVLAB",
+      "id": 1090
+    },
+    {
+      "name": "SAP ABAP – SAP ECC",
+      "id": 1091
+    },
+    {
+      "name": "RTOS DEVELOPMENT",
+      "id": 1092
+    },
+    {
+      "name": "MS POWERBI",
+      "id": 1093
+    },
+    {
+      "name": "AUTOMATION TESTING - TEST COMP",
+      "id": 1094
+    },
+    {
+      "name": "SPLUNK:OP_ORCHESTRATION",
+      "id": 1095
+    },
+    {
+      "name": "HTML 5 & CSS 3.0",
+      "id": 1096
+    },
+    {
+      "name": "DB2",
+      "id": 1097
+    },
+    {
+      "name": "SAP FICO – SAP ECC",
+      "id": 1098
+    },
+    {
+      "name": "DEVOPS SOLUTION ARCHITECT_AZUR",
+      "id": 1099
+    },
+    {
+      "name": "ANGULAR 4",
+      "id": 1100
+    },
+    {
+      "name": "API TESTING",
+      "id": 1101
+    },
+    {
+      "name": "ETL TESTING",
+      "id": 1102
+    },
+    {
+      "name": "BACHELOR OF COMPUTER APP",
+      "id": 1103
+    },
+    {
+      "name": "CRM SF/MSD",
+      "id": 1104
+    },
+    {
+      "name": "ANGULAR 4+_UI",
+      "id": 1105
+    },
+    {
+      "name": "SAP PP – SAP ECC",
+      "id": 1106
+    },
+    {
+      "name": "IIS:WEB SERVER",
+      "id": 1107
+    },
+    {
+      "name": "JIRA ADMINISTRATOR - TESTING",
+      "id": 1108
+    },
+    {
+      "name": "SELENIUM BDD - CUCUMBER",
+      "id": 1109
+    },
+    {
+      "name": "JAVA - SUPPORT",
+      "id": 1110
+    },
+    {
+      "name": "ANGULAR.JS FRONT END DEVP",
+      "id": 1111
+    },
+    {
+      "name": "CORE JAVA - ATM",
+      "id": 1112
+    },
+    {
+      "name": "WEB SERVICES",
+      "id": 1113
+    },
+    {
+      "name": "CRM FUNCTIONAL",
+      "id": 1114
+    },
+    {
+      "name": ".NET",
+      "id": 1115
+    },
+    {
+      "name": "GERMAN",
+      "id": 1116
+    },
+    {
+      "name": "SDET - TESTING",
+      "id": 1117
+    },
+    {
+      "name": "ETL TESING - CONGNOS",
+      "id": 1118
+    },
+    {
+      "name": "SERVICENOW DEVELOPER",
+      "id": 1119
+    },
+    {
+      "name": "JAVA SCRIPT",
+      "id": 1120
+    },
+    {
+      "name": "ORACLE APPS - CORE HRMS",
+      "id": 1121
+    },
+    {
+      "name": "WD INTEGRATION TOOLS: REPORT W",
+      "id": 1122
+    },
+    {
+      "name": "AUTOMATION TESTING  - SELENIUM",
+      "id": 1123
+    },
+    {
+      "name": "#N/A",
+      "id": 1124
+    },
+    {
+      "name": "SSIS",
+      "id": 1125
+    },
+    {
+      "name": "SQL",
+      "id": 1126
+    },
+    {
+      "name": "ALM USER LEVEL - TESTING",
+      "id": 1127
+    },
+    {
+      "name": "SAP PP - SAP S/4 HANA",
+      "id": 1128
+    },
+    {
+      "name": "AZURE: ADF",
+      "id": 1129
+    },
+    {
+      "name": "DOTNET CORE 2.0",
+      "id": 1130
+    },
+    {
+      "name": "BACHELOR OF ARTS",
+      "id": 1131
+    },
+    {
+      "name": "MANUAL TESTING",
+      "id": 1132
+    },
+    {
+      "name": ".NET CORE",
+      "id": 1133
+    },
+    {
+      "name": "ETL TESTING - INFORMATICA",
+      "id": 1134
+    },
+    {
+      "name": "AGILE PRODUCT OWNER-JAVA",
+      "id": 1135
+    },
+    {
+      "name": "AGILE METHODOLOGY",
+      "id": 1136
+    },
+    {
+      "name": "CORE JAVA",
+      "id": 1137
+    },
+    {
+      "name": "DEVOPS-SOLUTION ARCHTIECT",
+      "id": 1138
+    },
+    {
+      "name": "TIBCO EMS - MIDDLEWARE",
+      "id": 1139
+    },
+    {
+      "name": "AZURE",
+      "id": 1140
+    },
+    {
+      "name": "SAP SD – SAP ECC",
+      "id": 1141
+    },
+    {
+      "name": "PL/SQL",
+      "id": 1142
+    },
+    {
+      "name": "FINANCIAL TECHNOLOGY",
+      "id": 1143
+    },
+    {
+      "name": "PROJECT MANAGEMENT - ES_ORA",
+      "id": 1144
+    },
+    {
+      "name": "BASIC EXCEL",
+      "id": 1145
+    },
+    {
+      "name": "SSIS-SQL SERVER INTEG SERVICES",
+      "id": 1146
+    },
+    {
+      "name": "MANUAL TEST- AIRLINESTICKETING",
+      "id": 1147
+    },
+    {
+      "name": "CSS 3",
+      "id": 1148
+    },
+    {
+      "name": ".NET 4.5",
+      "id": 1149
+    },
+    {
+      "name": "JAVA 8+",
+      "id": 1150
+    },
+    {
+      "name": "MYSQL",
+      "id": 1151
+    },
+    {
+      "name": "JAVA 8+_CLOUD",
+      "id": 1152
+    },
+    {
+      "name": "ITSM",
+      "id": 1153
+    },
+    {
+      "name": "AIRLINES",
+      "id": 1154
+    },
+    {
+      "name": "SQL SERVER 2012",
+      "id": 1155
+    },
+    {
+      "name": "RESTFUL SERVICES",
+      "id": 1156
+    },
+    {
+      "name": "CLOUD CONSULTING AND ADVISORY",
+      "id": 1157
+    },
+    {
+      "name": "BIGDATA -HADOOP",
+      "id": 1158
+    },
+    {
+      "name": "SQL SERVER 2016",
+      "id": 1159
+    },
+    {
+      "name": ".NET 4.0",
+      "id": 1160
+    },
+    {
+      "name": ".NET FRAMEWORK 4.5",
+      "id": 1161
+    },
+    {
+      "name": "SQL SERVER 2014",
+      "id": 1162
+    },
+    {
+      "name": "EFFECTIVE COMMUNICATION",
+      "id": 1163
+    },
+    {
+      "name": "MANUAL TESTING - PRIVATE BANKI",
+      "id": 1164
+    },
+    {
+      "name": "DEVOPS SOLUTION ARCHITECT_AWS",
+      "id": 1165
+    },
+    {
+      "name": "BACK OFFICE OPERATIONS-BFS",
+      "id": 1166
+    },
+    {
+      "name": "SELENIUM:DEVOPS",
+      "id": 1167
+    },
+    {
+      "name": "AZURE:PUBLIC CLOUD_ASAS",
+      "id": 1168
+    },
+    {
+      "name": "ADO.NET",
+      "id": 1169
+    },
+    {
+      "name": "SAP HCM – SAP ECC",
+      "id": 1170
+    },
+    {
+      "name": "JMETER",
+      "id": 1171
+    },
+    {
+      "name": "MICROSOFT DYNAMICS - SALES",
+      "id": 1172
+    },
+    {
+      "name": "TSQL",
+      "id": 1173
+    }
+  ],
+  "learning_plan": [
+    {
+      "name": "Microsoft Full Stack Engineer Associate (CH)",
+      "id": 1210
+    },
+    {
+      "name": "Microsoft Full Stack Engineer Professional (CH)",
+      "id": 1211
+    },
+    {
+      "name": "Java Full Stack Engineer Associate (CH)",
+      "id": 1212
+    },
+    {
+      "name": "Java Full Stack Engineer Professional (CH)",
+      "id": 1213
+    },
+    {
+      "name": "Application Front End Developer (CH)",
+      "id": 1214
+    },
+    {
+      "name": "Application Front End Lead (CH)",
+      "id": 1215
+    },
+    {
+      "name": "Integration Engineer (CH)",
+      "id": 1216
+    },
+    {
+      "name": "Integration Lead (CH)",
+      "id": 1217
+    }
+  ],
+  "competency_unit": [
+    {
+      "name": "ATMAGLCOMP",
+      "id": 961
+    },
+    {
+      "name": "ATMAMZCOMP",
+      "id": 962
+    },
+    {
+      "name": "ADMJAVCOMP",
+      "id": 963
+    },
+    {
+      "name": "ATMCLDCOMP",
+      "id": 964
+    },
+    {
+      "name": "ATMCOMP",
+      "id": 965
+    },
+    {
+      "name": "ATMDEVCOMP",
+      "id": 966
+    },
+    {
+      "name": "ATMGTLCOMP",
+      "id": 967
+    },
+    {
+      "name": "ATMJAVCOMP",
+      "id": 968
+    },
+    {
+      "name": "ATMLEGCOMP",
+      "id": 969
+    },
+    {
+      "name": "ATMMSCOMP",
+      "id": 970
+    },
+    {
+      "name": "ATMSOACOMP",
+      "id": 971
+    },
+    {
+      "name": "ATMUICOMP",
+      "id": 972
+    }
+  ],
+  "trngpln_name": [
+    {
+      "name": "MICROSOFT FULL STACK ENGINEER - PROFESSIONAL(CH)",
+      "id": 1014
+    },
+    {
+      "name": "DIGITAL CM DEVELOPER-SHAREPOINT (CH)",
+      "id": 1015
+    },
+    {
+      "name": "IMS SRE (CH)",
+      "id": 1016
+    },
+    {
+      "name": "JAVA FULL STACK ENGINEER - PROFESSIONAL (CH)",
+      "id": 1017
+    },
+    {
+      "name": "SAP TECHNICAL CONSULTANT-FOR HIRE/TRAIN/DEPLOY",
+      "id": 1018
+    },
+    {
+      "name": "DIGITAL CRM DEVELOPER-MS DYNAMICS (CH)",
+      "id": 1019
+    },
+    {
+      "name": "ERP HCM TECHNOLOGY CONSULTANT - WORKDAY - OPENSOURCE (CH)",
+      "id": 1020
+    },
+    {
+      "name": "ERP HCM TECHNOLOGY CONSULTANT - WORKDAY - ERP(CH)",
+      "id": 1021
+    },
+    {
+      "name": "BIGDATA ENGINEER(CH)",
+      "id": 1022
+    },
+    {
+      "name": "TEST ANALYST (VANILLA SDET) - DATA(CH)",
+      "id": 1023
+    },
+    {
+      "name": "INTEGRATION_ENGINEER(CH)",
+      "id": 1024
+    },
+    {
+      "name": "DATA INTEGRATION ENGINEER (CH)",
+      "id": 1025
+    },
+    {
+      "name": "SERVICE DESIGN CONSULTANT (CH)",
+      "id": 1026
+    },
+    {
+      "name": "APPLICATION FRONT END DEVELOPER(CH)",
+      "id": 1027
+    },
+    {
+      "name": "IMS AZURE DEVOPS (CH)",
+      "id": 1028
+    },
+    {
+      "name": "DATA INTEGRATION MEMBER (CH)",
+      "id": 1029
+    },
+    {
+      "name": "JAVA-CLOUD ENGINEER ASSOCIATE (CH)",
+      "id": 1030
+    },
+    {
+      "name": "SAP FUNCTIONAL CONSULTANT-FOR HIRE/TRAIN/DEPLOY",
+      "id": 1031
+    },
+    {
+      "name": "ERP HCM LEAD - WORKDAY - TECHNICAL (CH)",
+      "id": 1032
+    },
+    {
+      "name": "BPM DEVELOPER - APPIAN (CH)",
+      "id": 1033
+    },
+    {
+      "name": "#N/A",
+      "id": 1034
+    },
+    {
+      "name": "WORKDAY HCM TECHNICAL LEAD- FOR HIRE/TRAIN/DEPLOY",
+      "id": 1035
+    },
+    {
+      "name": "IMS AWS DEVOPS (CH)",
+      "id": 1036
+    },
+    {
+      "name": "IMS KUBERNETES (CH)",
+      "id": 1037
+    },
+    {
+      "name": "TEST ANALYST (VANILLA SDET) - AUTOMATION(CH)",
+      "id": 1038
+    },
+    {
+      "name": "DATA INTEGRATION LEAD (CH)",
+      "id": 1039
+    },
+    {
+      "name": "INFORMATION DELIVERY & VISUALIZATION LEAD (CH)",
+      "id": 1040
+    },
+    {
+      "name": "MICROSOFT FULL STACK ENGINEER - ASSOCIATE (CH)",
+      "id": 1041
+    },
+    {
+      "name": "BIG DATA LEAD (CH)",
+      "id": 1042
+    },
+    {
+      "name": "SERVICENOW ASSOCIATE (CH)",
+      "id": 1043
+    },
+    {
+      "name": "JAVA FULL STACK ENGINEER - ASSOCIATE (CH)",
+      "id": 1044
+    }
+  ],
+  "lms_status": [
+    {
+      "name": "Not Applicable",
+      "id": 1206
+    },
+    {
+      "name": "Not Enrolled",
+      "id": 1207
+    },
+    {
+      "name": "Completed",
+      "id": 1208
+    },
+    {
+      "name": "Enrolled",
+      "id": 1209
+    },
+    {
+      "name": "Requested",
+      "id": 1227
+    }
+  ],
+  "login_crede": [
+    {
+      "email": "competencylead@gmail.com",
+      "password": 12345,
+      "role": "Competency Lead"
+    },
+    {
+      "email": "varsityspoc@gmail.com",
+      "password": 12345,
+      "role": "Varsity SPOC"
+    }
+  ],
+  "select_status": [
+    {
+      "lmsstatus": "Requested"
+    },
+    {
+      "lmsstatus": "Enrolled"
+    }
+  ]
+}
